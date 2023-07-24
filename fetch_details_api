@@ -1,0 +1,20 @@
+import requests
+from requests.auth import HTTPBasicAuth
+import json
+
+url = "https://bharat-kumar.atlassian.net/rest/api/3/application-properties"
+
+auth = HTTPBasicAuth("19311a04m3@sreenidhi.edu.in", "ATATT3xFfGF0t_S4sInAPS_q6_M0iZ8ixK_B45WOLF4jyXmc_QbXoGuzfZEqKY8e1QX38nzIgKTvC4sCxwkcEW8qg7uOQqiEISxfnpiWthKI20gnkszLyOHht_Ny21le-N26RDvQkE-ANnrTBQQJzeAEtEFQA-jgDnKLnWjQEarffzYxBH_w9Y4=0D1CCBB2")
+myself = jira.myself()
+headers = {
+  "Accept": "application/json"
+}
+
+response = requests.request(
+   "GET",
+   url,
+   headers=headers,
+   auth=auth
+)
+
+print(json.dumps(json.loads(response.text), sort_keys=True, indent=4, separators=(",", ": ")))

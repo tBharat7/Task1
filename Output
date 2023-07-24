@@ -1,0 +1,25 @@
+{
+    "accountId": "600503a6e2a135006954bfd3",
+    "accountType": "atlassian",
+    "active": true,
+    "applicationRoles": {
+        "items": [],
+        "size": 1
+    },
+    "avatarUrls": {
+        "16x16": "https://secure.gravatar.com/avatar/1b4908e93ac07a99e928f7040533fe01?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FBK-2.png",
+        "24x24": "https://secure.gravatar.com/avatar/1b4908e93ac07a99e928f7040533fe01?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FBK-2.png",
+        "32x32": "https://secure.gravatar.com/avatar/1b4908e93ac07a99e928f7040533fe01?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FBK-2.png",
+        "48x48": "https://secure.gravatar.com/avatar/1b4908e93ac07a99e928f7040533fe01?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FBK-2.png"
+    },
+    "displayName": "Bharat Kumar",
+    "emailAddress": "19311a04m3@sreenidhi.edu.in",
+    "expand": "groups,applicationRoles",
+    "groups": {
+        "items": [],
+        "size": 1
+    },
+    "locale": "en_GB",
+    "self": "https://bharat-kumar.atlassian.net/rest/api/3/user?accountId=600503a6e2a135006954bfd3",
+    "timeZone": "Asia/Calcutta"
+}
